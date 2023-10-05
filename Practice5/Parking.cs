@@ -16,11 +16,5 @@ namespace Practice5
         {
             _vehicles = vehicles;
         }
-
-        public void AddVehicle(Vehicle vehicle)
-        {
-            Array.Resize(ref _vehicles, _vehicles.Length + 1);
-            _vehicles[_vehicles.Length - 1] = vehicle;
-        }
     }
 }
